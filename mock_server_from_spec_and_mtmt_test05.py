@@ -493,4 +493,4 @@ async def threat_map() -> dict[str, Any]:
 if __name__ == "__main__":
     import uvicorn
 
-    uvicorn.run("mock_server_from_spec_and_mtmt_test05:app", host="127.0.0.1", port=8002, reload=True)
+    uvicorn.run("mock_server_from_spec_and_mtmt_test05:app", host="127.0.0.1", port=8000, reload=True)
