@@ -8,7 +8,7 @@ WORKDIR /app
 RUN pip install --no-cache-dir --upgrade pip && \
     pip install --no-cache-dir "fastapi[standard]>=0.136.0" "pydantic>=2.13.1"
 
-COPY work3/mock_server_from_spec_and_mtmt_test05.py .
+COPY mock_server_from_spec_and_mtmt_test05.py .
 
 EXPOSE 8000
 
